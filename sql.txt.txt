@@ -1,0 +1,44 @@
+Respostas do Teste Lógico (JurisHand - Teste 1):
+
+Exercício 1-
+1)
+1- 
+INSERT INTO usuarios (nome, email, password)
+VALUES (‘Nome_Fulano’, ‘Senha_Fulano’, ‘Password_Fulano’);
+
+2-
+SELECT * FROM usuarios
+WHERE id IN (valorID, valorID);
+
+3-
+UPDATE usuarios
+SET exemplo='Valor Exemplo', nome='Valor do nome', email='Valor Email', password='Valor do password'
+WHERE id=1;
+
+4-
+DELETE FROM usuarios WHERE id=1;
+
+
+
+
+Exercício 2-
+
+2)
+function insert(nome, email, password) { 
+	“nome”: “Fulano de tal”,
+	“email”: “fulanodetal@gmail.com”,
+	“password”: “fulano123”,
+ }
+
+function select(id) { 
+	“id”, “1”
+ }
+
+function update(id, field, value) { 
+	 “id”: “valorID”,
+	“field”: “valorField”,
+	“value”: “valorValue”,
+ }
+function delete(id) { 
+	“id”, “valorDoID”
+}
